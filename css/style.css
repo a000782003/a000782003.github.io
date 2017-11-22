@@ -1,0 +1,102 @@
+body{
+    height: 2000px;
+}
+
+.top{
+    background-image: url("/imgs/img/OBOOF90.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    /* background-image: url("/imgs/logo_2.png");
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+a{
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.bg-light {
+    background-color: #f8f9fa96!important;
+}
+
+.spaceMargin{
+    height: 20px;
+}
+
+.newMessage{
+    width: 600px;
+    height: 200px;
+    background-image: url("/imgs/Information.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.about_bg{
+    height: 50vh;
+    background-image: url("/imgs/img/pic_about.jpg");
+    background-size: cover;
+}
+/* .color{
+    background-color: rgb(54, 136, 184);
+    height: 200px;
+} */
+.about{
+    background-image: url("/imgs/img/op.png");
+    height: 30vh;
+}
+.dm1{
+    background-image: url("/imgs/img/dm1.png");
+    background-size: cover;
+    height: 200px;
+}
+.dm2{
+    background-image: url("/imgs/img/dm3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.dm3{
+    background-image: url("/imgs/img/dm2.png");
+    background-size: cover;
+    height: 200px;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  /* opacity: .5; */
+}
+.hr-text:before {
+  content: '';
+  background: -webkit-linear-gradient(left, transparent, #818078, transparent);
+  background: linear-gradient(to right, transparent, #c9b415, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 .5em;
+  line-height: 1.5em;
+  background-color: #fcfcfa;
+}
+
+
+
