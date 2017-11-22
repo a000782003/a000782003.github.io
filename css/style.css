@@ -61,6 +61,7 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
+    margin-left: 30px;
 }
 .dm3{
     background-image: url("/imgs/img/dm2.png");
@@ -96,6 +97,17 @@ a{
   padding: 0 .5em;
   line-height: 1.5em;
   background-color: #fcfcfa;
+}
+.menu_style{
+    display: flex;
+}
+.coffee_size{
+    flex: 1;
+    background-size: cover;
+    height: 200px;
+}
+.menu_bg{
+    background-image: url();
 }
 
 
